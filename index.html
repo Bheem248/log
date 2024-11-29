@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDB Login Page</title>
+    <link rel="stylesheet" href="index_imdb_login.css">
+</head>
+<body>
+    <section class="sign">
+      <div class="one">  
+      <h1 class="hdr1">Sign In</h1>
+      <a href="https://www.imdb.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS8_cmVmXz1sb2dpbiJ9&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20" class="auth-link1" target="_blank">
+        <span class="auth-image1 "></span>
+        <span class="auth-caption1">Sign in with IMDB</span>
+      </a><br/>
+
+      <a href="https://na.account.amazon.com/ap/signin?_encoding=UTF8&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.pape.max_auth_age=0&ie=UTF8&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=lwa&openid.assoc_handle=amzn_lwa_na&marketPlaceId=ATVPDKIKX0DER&arb=12f08aed-5526-42fc-9616-b0a04014640a&language=en_US&openid.return_to=https%3A%2F%2Fna.account.amazon.com%2Fap%2Foa%3FmarketPlaceId%3DATVPDKIKX0DER%26arb%3D12f08aed-5526-42fc-9616-b0a04014640a%26language%3Den_US&enableGlobalAccountCreation=1&metricIdentifier=amzn1.application.eb539eb1b9fb4de2953354ec9ed2e379&signedMetricIdentifier=fLsotU64%2FnKAtrbZ2LjdFmdwR3SEUemHOZ5T2deI500%3D" class="auth-link2" target="_blank">
+         <span class="auth-caption1">Sign in with Amazon</span>
+      </a><br/>
+
+      <a href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&access_type=offline&redirect_uri=https%3A%2F%2Fwww.imdb.com%2Fap%2F3p_callback%3FidentityProvider%3DGOOGLE%26relyingParty%3DIMDbPool%26request%3Dsignin%26openid.assoc_handle%3Dimdb_google%26openid.mode%3Dcheckid_setup%26openid.ns%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%26openid.return_to%3Dhttps%253A%252F%252Fwww.imdb.com%2Fap-signin-handler&state=8d6243a1-68b8-4b7e-b25c-bd08ca9eb84d.hzGfs1A_LpM4YhV9oHqegQPx07L3o1ND906Li7CQ3yk%3D&client_id=118778695955-4inip14ellc053slc8e3aebndgcfo3p9.apps.googleusercontent.com&scope=email%20profile&service=lso&o2v=2&ddm=1&flowName=GeneralOAuthFlow" target="_blank" class="auth-link3">
+          <span class="auth-caption1">Sign in with Google</span>
+      </a><br/>
+
+      <a href="https://appleid.apple.com/auth/authorize?response_type=code+id_token&redirect_uri=https%3A%2F%2Fwww.imdb.com%2Fap%2F3p_callback%3FidentityProvider%3DAPPLE%26relyingParty%3DIMDbPool%26request%3Dsignin%26openid.assoc_handle%3Dimdb_apple%26openid.mode%3Dcheckid_setup%26openid.ns%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%26openid.return_to%3Dhttps%253A%252F%252Fwww.imdb.com%252Fregistration%252Fap-signin-handler%252Fimdb_apple&state=21aa6ec2-b272-4119-8dee-63de4f0b12d7.vU2q_mkhADD2dpa11t2EJvusTaEYcfyMMQLn3mUubWA%3D&client_id=com.imdb.imdb.service&scope=name+email&response_mode=form_post" target="_blank" class="auth-link4">
+           <span class="auth-caption1">Sign in with Apple</span>
+      </a><br/>
+
+      <a href="https://help.imdb.com/article/issues/GG3BAQ79RAF8ZDEZ/" target="_blank" class="auth-link5">
+           <span class="auth-caption1">Sign in with Facebook</span>
+      </a>
+
+      <p class="divider-text">-------------------- or --------------------</p>
+
+      <a href="https://www.imdb.com/ap/register?openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS8_cmVmXz1sb2dpbiJ9&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20" target="_blank" class="auth-link6">
+            <span class="auth-caption2">Create a New Account</span>
+      </a>
+    </div>
+
+      <div class="side"> 
+        <h1>Benefits of your free IMDb account</h1>
+        <p>
+            <strong>Personalized Recommendations</strong><br/>
+            Discover shows you'll love.
+        </p>
+
+        <p>
+            <strong>Your Watchlist</strong><br/>
+            Track everything you want to watch and receive e-mail when movies open in theaters.
+        </p>
+
+        <p>
+            <strong>Your Ratings</strong><br/>
+            Rate and remember everything you've seen.
+        </p>
+
+        <p>
+            <strong>Contribute to IMDb</strong><br/>
+            Add data that will be seen by millions of people and get cool badges.
+        </p>
+     </div>
+    </section>
+    
+    
+</body>
+</html>
